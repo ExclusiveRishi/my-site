@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-family: "Neucha", cursive;
+}
+
+.form-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 4vh;
+  background-color: forestgreen;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container .btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+/*# sourceMappingURL=admin.css.map */

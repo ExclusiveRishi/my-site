@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: "Neucha", cursive;
+}
+.form-container {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+	row-gap: 4vh;
+	background-color: forestgreen;
+	input,
+	textarea,
+	.btn-block {
+		display: block;
+		width: 100%;
+	}
+	h2 {
+		text-align: center;
+	}
+}

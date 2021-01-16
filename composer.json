@@ -1,0 +1,13 @@
+{
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"Library\\": "app/core/"
+		}
+	},
+	"require": {
+		"cocur/slugify": "^4.0",
+		"erusev/parsedown": "^1.7",
+		"debril/feed-io": "^4.7"
+	}
+}
