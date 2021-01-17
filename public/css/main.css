@@ -52,3 +52,12 @@ a {
     height: 5vh;
     margin-bottom: 1rem;
 }
+#feed{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    position: fixed;
+    bottom: 1vh;
+    right: 5vw;
+}
