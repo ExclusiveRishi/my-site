@@ -1,0 +1,63 @@
+body {
+    font-size: 120%;
+    color: #fffeff;
+    background: #038164;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background: grey;
+    box-shadow: 0px 1px 1px rgb(203, 219, 236);
+    text-align: center;
+    margin-top: 0;
+}
+p,
+a {
+    font-size: 124%;
+}
+#title {
+    text-align: center;
+    align-self: center;
+    width: 100vw;
+    font-family: "Arial Rounded MT";
+}
+#title > h1 > a:link {
+    color: white;
+    text-decoration: none;
+}
+#title > h1 > a:visited {
+    color: white;
+}
+#title > h1 > a:hover {
+    color: white;
+}
+#description {
+    word-wrap: normal;
+    max-width: 70vw;
+    margin: auto;
+}
+#login-container{
+    align-self: center;
+}
+#login-container > h1{
+    text-align: center;
+}
+#login-container > form {
+    display: flex;
+    flex-direction: column;
+}
+#login-container > form > input{
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 1rem;
+}
+#feed{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    position: fixed;
+    bottom: 1vh;
+    right: 5vw;
+}
